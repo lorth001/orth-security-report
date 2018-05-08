@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Orth Security Report</title>
+		<link href="main-articles.css" rel="stylesheet" type="text/css">
+		<link href="main-responsive.css" rel="stylesheet" type="text/css" media="screen and (max-width: 900px)">
+		<meta name="description" content="Articles for Orth Security Report.">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<div id="container">
+        
+			<div id="heading">
+           	<a href="index.html"><span class="heading-responsive"><img src="images/Mast Head.png" width="950" height="100" alt="Orth Security Report, Information Security, Cyber Security"/></span></a>
+            </div>
+            
+  			<div id="nav">
+            	<ul>
+  					<li><a href="index.html" title="Articles" target="_self">Articles</a></li>
+  					<li><a href="about-luke-orth.html" title="About Luke Orth" target="_self">About Me</a></li>
+  					<li><a href="about-website.html" title="About Orth Security Report" target="_self">About Site</a></li>
+				</ul>
+			</div>
+            
+  			<div id="art-text">
+    			<p style="margin-top: 2em;">
+				<img src="images/banner.png" width="1044" height="100"  alt="Luke Orth"/>
+                </p>
+                
+                <h1>Exploits</h1>
+                
+                <h2>
+                	<span class="author">Luke Orth</span>
+                </h2>
+                <p>
+                	<span class="timestamp">January 22, 2017</span>
+                </p>
+                
+                <p>
+    				<span class="firstcharacter">M</span>alware.  It’s a term often used by security professionals and the media when discussing the latest cyber-attacks; yet often the spotlight is placed on the aftermath and effects of the malware (loss of information, stolen credentials, locked machines, etc.) with little attention given to its origin.  So where does malware come from and how does it end up on your computer?
+				</p>
+				
+				<h3>Exploits</h3>
+				
+				<p>
+					Exploits are pieces of code that search for vulnerabilities or flaws in applications and systems with the intent of using those vulnerabilities for malicious purposes <a class="link" link href="https://blog.malwarebytes.com/101/2017/03/what-are-exploits-and-why-you-should-care/" target="_blank">(Malwarebytes, 2017)</a>.  These exploits are often packaged in kits, called exploit kits, and scan machines for known vulnerabilities.  If a vulnerability is found, the malware (often referred to as a “payload”) is released for infection.  While exploits and malware are closely related, there is a difference—exploits are not malware.  Exploits merely provide the means by which malware is delivered.
+				</p>
+				
+				<h3>An Important Note</h3>
+				
+				<p>
+					Before pressing forward, it is important to note that applications on your phone/computer are rarely stand-alone pieces of software.  A computer is a system.  This is why apps ask for certain permissions (location services, contacts, camera, microphone, etc.) when downloaded from the iTunes or Google store.  Once installed, these apps are interconnected with your operating system and given access to various lower-level functions.  This means that each piece of software on your system has access to some other part(s) of the machine.
+				</p>
+				
+				<h3>Vulnerabilities</h3>
+				
+				<p>
+					These are what exploits search for.  A vulnerability is a flaw in a piece of software code which enables that software to be manipulated for malicious purposes.  Theoretically, all software contains vulnerabilities which can be exploited <a class="link" link href="https://blog.malwarebytes.com/101/2017/03/what-are-exploits-and-why-you-should-care/" target="_blank">(Malwarebytes, 2017)</a>.  Consequently, every program, application, or plugin installed on your device makes your system more vulnerable to exploitation.  Java, Adobe, Explorer, and MS Office are just a few examples of software that are often vulnerable and therefore exploited.  As discussed earlier, exploit kits are preloaded with code that fingerprints your device and scans for specific vulnerabilities.  If a match is found, the kit exploits the vulnerability and releases the malware.  If not, your device is released and no harm is done.
+				</p>
+				
+				<h3>Dissection of an Attack</h3>
+				
+				<h4>1) Target Popular Website</h4>
+				
+				<p>
+					Reputable sites are popular targets for hackers because of their high traffic and false sense of security.  The high volume of visitors means that a hacker will be fishing in a bigger pond, thus a larger return on investment if the attack succeeds.
+				</p>
+				
+				<h4>2) Booby-Trap the Site</h4>
+				
+				<p>
+					Once a desirable site is found, the hacker will compromise it and redirect visitors to his own site in the background which is hosting an exploit kit.  This redirect is performed without opening another tab or window so that the user remains oblivious to what is going on behind the scenes.  This is often accomplished one of two ways: 1) by actually hacking the website and inserting malicious code or 2) by infecting a website’s advertising and forcing the redirect from there, without the visitor even needing to click on the ad.  This second method is known as malvertising, and it enables hackers to compromise sites as reputable as Facebook and YouTube.
+				</p>
+				
+				<h4>3) Reap the Rewards</h4>
+				
+				<p>
+					From here, the hacker’s work is mostly finished.  As the site attracts more visitors, they become redirected to the malicious site and funneled through its exploit kit.  If the victim is found to be running an outdated program which the exploit kit recognizes, their machine is infected; otherwise it’s released.
+				</p>
+				
+				<h3>How to Defend Yourself</h3>
+				
+				<p>
+					
+					Patch, patch, and patch.  Just as software vendors constantly update their programs for cosmetic fixes and better performance, they also patch known vulnerabilities in their products.  By updating to the latest version of iOS, Adobe, or Microsoft, these vulnerabilities are fixed, meaning your machine is better protected.
+				</p>
+				
+				<h3>Types of Exploits</h3>
+				
+				<p>
+					There are only two types of exploits—known and unknown.
+				</p>
+				
+				<p>
+					Known exploits have already been discovered and documented; meaning the specific vulnerabilities that they target are usually patched.  Even still, these exploits are the most prevalent because they are often still effective.  Security experts have found that the majority of exploits used by criminals were patched more than a year prior to attack <a class="link" link href="https://www.csoonline.com/article/3075830/data-protection/zero-days-arent-the-problem-patches-are.html" target="_blank">(Grimes, 2016)</a>.  Why?  Because users don’t update and patch their machines.  
+				</p>
+				
+				<p>
+					This could be for several reasons: 1) the time it takes to update is disruptive to their experience or 2) they don’t understand the risk associated with not patching.  Either way, it is a concerning trend.  In their 2016 security report, Microsoft found that most exploits date back to 2010-2012 <a class="link">(Microsoft, 2016)</a>.  Similarly, Verizon’s Threat Report showed that 85% of successful attacks in 2016 utilized the top ten exploits—all of which have patches available <a class="link" link href="http://www.verizonenterprise.com/resources/reports/rp_DBIR_2016_Report_en_xg.pdf" target="_blank">(Verizon, 2016)</a>.
+				</p>
+				
+				<p>
+					Unknown exploits, though much more dangerous than their known counterparts, are a rarity.  Named zero-day exploits, they are unique in that they have discovered a vulnerability (called a zero-day vulnerability) which is unknown, undocumented, and therefore unpatched by the vendor.  Symantec reported that only fifty-four such vulnerabilities were found in the year 2016 <a class="link" link href="https://www.symantec.com/content/dam/symantec/docs/reports/gistr22-government-report.pdf" target="_blank">(Symantec, 2017)</a>.  These zero-day exploits operate with a 100% success rate when deployed; making them highly sought after.
+				</p>
+				
+				<p>
+					Discovering zero-day vulnerabilities and devising exploits for them often requires advanced technical skills in reverse-engineering, computer theory, and programming—making them rare and in high demand.  As a result, authors of zero-day exploits can demand high sums for their tools, selling them on both the black market and in legitimate corporate settings.  Zerodium—a U.S. cyber defense firm—offers payouts up to $1.5 million for zero-day exploits depending on which software is affected <a class="link" link href="https://www.zerodium.com/program.html" target="_blank">(Zerodium, 2017)</a>.
+				</p>
+				
+				<p>
+					That said, each time these exploits are used they become susceptible to discovery.  Once found, the software vendor will release a patch for the vulnerability—considerably reducing the value of the exploit.  While the exploit may still work, provided that users haven’t updated their software, it will no longer have the 100% success rate which made it so valuable at the start.  Thus, zero-day exploits are often reserved only for sophisticated attacks that will reap a high reward on investment, even if the exploit is discovered.
+				</p>
+				
+				<h3>Conclusion</h3>
+				
+				<p>
+					Malware is often only effective if it can exploit a vulnerability on your machine.  Reduce or eliminate your computer's vulnerabilities and the malware can't be executed.  The solution is simple: <i>patch your software</i>.  If you do this and invest in a reputable antivirus program (McAfee, Symantec, etc.), your computer will be protected against the vast majority of threats online.
+				</p>
+				
+				<p>
+					<a href="ddos.html" class="nextPage">Next Page</a>
+				</p>
+				
+				<h2>Resources</h2>
+				
+				<p>
+					<a class="link" link href="https://www.csoonline.com/article/3075830/data-protection/zero-days-arent-the-problem-patches-are.html" target="_blank">Grimes, R. A. (2016, June 01). Zero-Days aren't the Problem -- Patches Are. Retrieved January 22, 2018, from https://www.csoonline.com/article/3075830/data-protection/zero-days-arent-the-problem-patches-are.html</a>
+				</p>
+				
+				<p>
+					<a class="link">Microsoft Security Intelligence Report (Vol. 20, July through December, 2015, Tech.). (2015). Redmond, WA: Microsoft.</a>
+				</p>
+				
+				<p>
+					<a class="link" link href="http://www.verizonenterprise.com/resources/reports/rp_DBIR_2016_Report_en_xg.pdf" target="_blank">Verizon. (2016). 2016 Data Breach Investigations Report. Retrieved January 22, 2018, from http://www.verizonenterprise.com/resources/reports/rp_DBIR_2016_Report_en_xg.pdf</a>
+				</p>
+				
+				<p>
+					<a class="link" link href="https://www.symantec.com/content/dam/symantec/docs/reports/gistr22-government-report.pdf" target="_blank">Symantec. (2017). Internet Threat Report Security (ITRS): Government. Retrieved January 22, 2018, from https://www.symantec.com/content/dam/symantec/docs/reports/gistr22-government-report.pdf</a>
+				</p>
+				
+				<p>
+					<a class="link" link href="https://blog.malwarebytes.com/101/2017/03/what-are-exploits-and-why-you-should-care/" target="_blank">Zamora, W. (2017, December 13). What are Exploits? (And Why You Should Care). Retrieved January 22, 2018, from https://blog.malwarebytes.com/101/2017/03/what-are-exploits-and-why-you-should-care/</a>
+				</p>
+				
+				<p>
+					<a class="link" link href="https://en.wikipedia.org/wiki/Zero-day_(computing)" target="_blank">Zero-day (computing). (2018, January 20). Retrieved January 22, 2018, from https://en.wikipedia.org/wiki/Zero-day_(computing)</a>
+				</p>
+				
+				<p>
+					<a class="link" link href="https://www.zerodium.com/program.html" target="_blank">Zerodium. (n.d.). Retrieved January 22, 2018, from https://www.zerodium.com/program.html</a>
+				</p>
+				
+			</div>
+				<div id="footnote">
+			<div id="footnote-text">
+				<p>
+				<a class="link" href="https://www.linkedin.com/in/lukeorth/" target="blank"><img src="images/linkedin-image.png" style="background-color:black;" width="25" height="25" alt="Linkedin profile"/></a>
+                </p>
+				<p style="color:white;">
+				Copyright 2017&copy; - Orth Security Report
+                </p>
+			</div>
+			</div>
+  		</div>
+	</body>
+</html>
